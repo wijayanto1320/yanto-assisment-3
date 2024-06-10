@@ -669,6 +669,10 @@ video {
   max-width: 36rem;
 }
 
+.flex-grow {
+  flex-grow: 1;
+}
+
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -841,6 +845,9 @@ video {
 
 body {
   font-family: "Inter", sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 .logo {
