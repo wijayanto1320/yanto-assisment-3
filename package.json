@@ -1,0 +1,16 @@
+{
+  "name": "yanto-assignment-3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tw-run": "npx tailwindcss -i ./src/style.css -o ./dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  },
+  "types": "module"
+}
